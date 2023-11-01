@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    body{
+    
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .name, .email{
+        margin-right:22px;
+    }
+    div{
+        margin-bottom:10px;
+    }
+    input{
+    border-radius: 20px;
+    width:100%;
+    }
+    .margin{
+        border:2px solid;
+        border-radius: 25px;
+        width:300px;
+        height:300px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    button{
+        box-shadow: inset 20px 1px 20px 20px rgb(178, 193, 209);
+        border-radius: 20px;
+        
+    }
+
+ 
+</style>
+<body>
+    <div class="margin">
+    <form >
+        <h1>Login form</h1>
+        <div>
+        <lable class="name" for="name">Name</lable>
+        <input type="text" id="name" placeholder="Enter your name" required>
+    </div>
+    <div>
+        <lable class="email" for="mail">Email</lable>
+        <input type="email" id="mail" placeholder="Enter your mail" required>
+        </div>
+        <div>
+        <lable for="pass">Password</lable>
+        <input type="password" id="pass" placeholder="Enter your password" required>
+    </div>
+    <button>Login</button>
+
+    
+    <p>Don't Have account?<a href="sign-up.html">Register</a></p>
+    </form>
+</div>
+</body>
+</html>
