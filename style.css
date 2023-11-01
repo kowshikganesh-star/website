@@ -16,6 +16,7 @@ body{
         input{
         border-radius: 20px;
         width:100%;
+        border:none;
         }
         .margin{
             border:2px solid;
@@ -30,5 +31,6 @@ body{
             box-shadow: inset 20px 1px 20px 20px rgb(178, 193, 209);
             border-radius: 20px;
             margin-top: 5px;
+            border:none;
         }
         
