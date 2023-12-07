@@ -8,6 +8,7 @@
 <style>
     body{
         background-image: linear-gradient(59deg, #FDFCFB , #E2D1C3);
+        background-position: 100vw;
     }
     .contianer{
         display: flex;
@@ -22,6 +23,7 @@
         text-align: center;
         display: flex;
         flex-wrap: wrap;
+       
     }
     .link{
         text-decoration: none;
@@ -29,6 +31,7 @@
     }
     .pad{
         column-gap: 7vw; 
+        
     }
     h1{
           color: limegreen;
@@ -39,6 +42,7 @@
     }
     .iframes{
         border-radius: 30px;
+        margin-bottom: 2px;
         
     }
     .center1{
@@ -69,6 +73,23 @@
         color:blue;
         text-decoration: underline;
     }
+    .items{
+        @media all and (max-width:450px){
+
+        width:100%;
+        display:flex;
+        justify-content: center;
+        flex-flow: row;
+    }
+    }
+    button{
+        @media all and (max-width:450px){
+        width:100%;
+        margin-bottom: 2px;
+    }
+    }
+    
+    
  
   
 </style>
