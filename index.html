@@ -23,6 +23,7 @@
         text-align: center;
         display: flex;
         flex-wrap: wrap;
+        justify-content: end;
        
     }
     .link{
@@ -73,20 +74,26 @@
         color:blue;
         text-decoration: underline;
     }
-    .items{
+    .items, .item{
         @media all and (max-width:450px){
 
         width:100%;
         display:flex;
         justify-content: center;
         flex-flow: row;
+        margin-bottom: 5px;
     }
     }
+    
     button{
         @media all and (max-width:450px){
         width:100%;
         margin-bottom: 2px;
     }
+    }
+    .text{
+        text-align: center;
+        text-decoration: none;
     }
     
     
@@ -96,15 +103,15 @@
 <body>
     <header>
       <div class="contianer"> 
-           <div class="item"> <a href="https://www.youtube.com/@TAPACADEMY"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Ked2uk_15Cul2sA5j3RQJVsjm4ZANxemmWvTsFH6YvKy1Qx5zoJO3g&s=0"width=22px height="22px"></a></div>
+           <div class="item"><a class="text" href="https://www.youtube.com/@TAPACADEMY" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Ked2uk_15Cul2sA5j3RQJVsjm4ZANxemmWvTsFH6YvKy1Qx5zoJO3g&s=0"width=22px height="14px"><span class="text1">Youtube</span></a></div>
              
-      <div class="item"> <button> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAV1BMVEVHcEzZUUXXd2/z9PTeU0fZbmbo5+f0+vrx8vLbQjPaSz7WTkHotLHBOyzDTkPAOCjhhX7ZeHHEo6DqzMrFxcS8cGrae3Ti4uLMdm/p6urQ1NS8OSrl5eWBeqqfAAAAHXRSTlMAc5qd//z//////6Pxof3//+n////y6P/z//9ysazRhhoAAADtSURBVHgB1ZJXgoMwDERTXEUH7wo5uf85Y4mOyQEyCXXevC9uP5L74/klj7v0SmljXRZrtAcmCqWULzPClt4DFDOgIEmyeUrFQM0ES85zgEYAqGtgonUzYp3Mfd3MAHQ9OwAGIewgNYS/FfjHMC4S61rpx4A7gDD0MEkG4B76iDRugEEMQXuWeFDgdYhoTgCG2INYeJ76DEhEksA0R5MbmIi99zxHk+I2oJsAjDEGnvPekMsMTMiF97Qz+MWAfJ33RDlgnKNZQFcAOWJC/FdAaoWQPgcM1zNBR+DFgHTLfwe85KMsHu/LPCrufyEfyewjNsxN1fgAAAAASUVORK5CYII=" width="10px">    
+      <div class="item"> <button> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAV1BMVEVHcEzZUUXXd2/z9PTeU0fZbmbo5+f0+vrx8vLbQjPaSz7WTkHotLHBOyzDTkPAOCjhhX7ZeHHEo6DqzMrFxcS8cGrae3Ti4uLMdm/p6urQ1NS8OSrl5eWBeqqfAAAAHXRSTlMAc5qd//z//////6Pxof3//+n////y6P/z//9ysazRhhoAAADtSURBVHgB1ZJXgoMwDERTXEUH7wo5uf85Y4mOyQEyCXXevC9uP5L74/klj7v0SmljXRZrtAcmCqWULzPClt4DFDOgIEmyeUrFQM0ES85zgEYAqGtgonUzYp3Mfd3MAHQ9OwAGIewgNYS/FfjHMC4S61rpx4A7gDD0MEkG4B76iDRugEEMQXuWeFDgdYhoTgCG2INYeJ76DEhEksA0R5MbmIi99zxHk+I2oJsAjDEGnvPekMsMTMiF97Qz+MWAfJ33RDlgnKNZQFcAOWJC/FdAaoWQPgcM1zNBR+DFgHTLfwe85KMsHu/LPCrufyEfyewjNsxN1fgAAAAASUVORK5CYII=" width="10px">
       <a class="link" href="mailto:kowshikganesh2002@gmail.com">kowshikganesh2002@gmail.com</a></button> </div>
       <div class="item"> <img src="https://t1.gstatic.com/images?q=tbn:ANd9GcTxfojO4Wn4y9nFM6ZIHpWaAs3NMgFPisrCKLoniO7j-T5RAp_h" width="15px" height="14px">
        6300598688</div>
        </div>
         <nav>
-            <img class="img" src="https://thetapacademy.com/wp-content/uploads/2023/08/footer-taplogo.png.webp">
+            <img class="log" src="https://thetapacademy.com/wp-content/uploads/2023/08/footer-taplogo.png.webp">
             <div class="contianer pad">
 
              <div class="items"><button><a class="link" href="courses.html">courses</a></button></div>    
