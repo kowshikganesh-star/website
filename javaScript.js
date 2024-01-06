@@ -7,3 +7,4 @@ const h3 = document.querySelectorAll("h3");
 for(let i=0; i< h3.length; i++){
     h3[i].style.color="Blue";
 }
+//document.body.style.backgroundImage="url(8889736.jpg)";
